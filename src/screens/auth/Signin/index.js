@@ -1,33 +1,30 @@
 import React from 'react';
-import {Image, Text, View} from 'react-native';
+import {SafeAreaView, Text} from 'react-native';
 import Button from '../../../components/Button';
+import Input from '../../../components/Input';
+import Title from '../../../components/Title';
 import styles from './styles';
 
 const Signin = ({navigation}) => {
   return (
-    <View style={styles.container}>
-      <View style={{flex: 1}}>
-        <Image
-          style={styles.image}
-          source={require('../../../assets/onboarding.png')}
-        />
+    <SafeAreaView style={styles.container}>
+      <Title>Welcome back!</Title>
 
-        <View style={styles.footer} />
-      </View>
+      <Input placeholder="Email" keyboardType="email-address" />
+      <Input placeholder="Password" secureTextEntry />
 
-      <View style={styles.content}>
-        <Text style={styles.title}>Best task management app</Text>
-        <Text style={styles.subtitle}>
-          Get organized by sorting out all your tasks and boost your
-          productivity.
+      <Button>Login</Button>
+
+      <Text style={styles.footerText}>
+        Not Registered?
+        <Text
+          onPress={() => navigation.navigate('Signup')}
+          style={styles.footerLink}>
+          {' '}
+          Sign up!
         </Text>
-
-        <Button onPress={() => navigation.navigate('Signin')}>Log in</Button>
-        <Button onPress={() => navigation.navigate('Signup')} type={'blue'}>
-          Get started
-        </Button>
-      </View>
-    </View>
+      </Text>
+    </SafeAreaView>
   );
 };
 
