@@ -18,7 +18,7 @@ const Onboarding = ({navigation}) => {
       <View style={styles.content}>
         <Text style={styles.title}>Best task management app</Text>
         <Text style={styles.subtitle}>
-          Get organized by sorting out all your task and boost your
+          Get organized by sorting out all your tasks and boost your
           productivity.
         </Text>
 
