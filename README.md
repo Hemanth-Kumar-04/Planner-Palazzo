@@ -1,5 +1,5 @@
 Download Zip File and Open Terminal run "npm i" 
-Then Run "npm start"
+Then Run "npm start"..
 
 
 ![Screenshot_1695625098](https://github.com/Hemanth-Kumar-04/Planner-Palazzo/assets/139763023/5ca400f4-3ee0-4829-95c7-5a371e82222c)
