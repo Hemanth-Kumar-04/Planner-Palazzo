@@ -8,6 +8,8 @@ Then Run "npm start"...
 
 ![Screenshot_1695625109](https://github.com/Hemanth-Kumar-04/Planner-Palazzo/assets/139763023/37c03894-be84-404e-906b-00fd12746058)
 
+![Screenshot_2023-10-19-15-49-48-78_383c8f8d8a265da20f31e8f6a8102a5d (1)](https://github.com/Hemanth-Kumar-04/Planner-Palazzo/assets/139763023/a707815b-fa57-4547-afef-7e4eeaf2d983)
 
+![Screenshot_2023-10-19-15-49-48-78_383c8f8d8a265da20f31e8f6a8102a5d](https://github.com/Hemanth-Kumar-04/Planner-Palazzo/assets/139763023/f2020d84-5296-4a40-a546-9a9f7a18fdce)
 
 
